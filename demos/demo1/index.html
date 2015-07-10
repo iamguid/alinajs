@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Alina Demo 1</title>
+
+        <style type="text/css">
+            .object {
+                width: 80px;
+                height: 80px;
+                position: absolute;
+                background: blue;
+                top: 50%;
+                left: 50%;
+                margin-top: -40px;
+                margin-left: -40px;
+            }
+
+            .animations {
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+
+            .controls {
+                position: absolute;
+                bottom: 100px;
+                left: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Time animation</h1>
+        <div id="ex1" class="example">
+            <div class="object">
+            </div>
+
+            <select class="easings">
+              <option value="linear">linear</option>
+              <option value="easeInQuad">easeInQuad</option>
+              <option value="easeOutQuad">easeOutQuad</option>
+              <option value="easeInOutQuad">easeInOutQuad</option>
+              <option value="easeInCubic">easeInCubic</option>
+              <option value="easeOutCubic">easeOutCubic</option>
+              <option value="easeInOutCubic">easeInOutCubic</option>
+              <option value="easeInQuart">easeInQuart</option>
+              <option value="easeOutQuart">easeOutQuart</option>
+              <option value="easeInOutQuart">easeInOutQuart</option>
+              <option value="easeInQuint">easeInQuint</option>
+              <option value="easeOutQuint">easeOutQuint</option>
+              <option value="easeInOutQuint">easeInOutQuint</option>
+            </select>
+
+            <select class="presets">
+                <option value="moveX">vertical move</option>
+                <option value="color">color</option>
+                <option value="rotate">rotate</option>
+            </select>
+
+            <div class="controls">
+                <a href="#" data-action="start">Start</a>
+                <a href="#" data-action="stop">Stop</a>
+                <a href="#" data-action="pause">Pause</a>
+                <a href="#" data-action="resume">Resume</a>
+            </div>
+        </div>
+
+        <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="../../dist/alina.js"></script>
+        <script src="./demo.js"></script>
+    </body>
+</html>

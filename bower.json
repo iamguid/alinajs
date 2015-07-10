@@ -1,0 +1,19 @@
+{
+  "name": "alinajs.dev",
+  "version": "1.0.0",
+  "authors": [
+    "iam.guid"
+  ],
+  "description": "Powerful js animation engine",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

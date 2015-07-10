@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Alina Tests</title>
+        <link rel="stylesheet" href="../node_modules/mocha/mocha.css">
+        <script src="../dist/alina.js"></script>
+    </head>
+    <body>
+        <div id="mocha"></div>
+        <script src="../node_modules/expect.js/index.js"></script>
+        <script src="../node_modules/mocha/mocha.js"></script>
+        <script>mocha.setup({ ui: "bdd", globals: ["script*"] });</script>
+        <script src="alina.js"></script>
+        <script src="bind.js"></script>
+        <script src="easing.js"></script>
+        <script>
+            mocha.checkLeaks();
+            window.onload = function () {
+                mocha.run();
+            };
+        </script>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+# Ignore compilation result
+/dist/*
+
+# Ignore npm and bower packages
+/node_modules/*
+/bower_components/*

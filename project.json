@@ -1,0 +1,21 @@
+{
+  "name" : "alinajs",
+  "version" : "1.0.0",
+  "description" : "Animation binder",
+  "license": "MIT",
+
+  "configs": {
+    "directories": {
+      "dist": "./dist",
+      "src": "./src"
+    },
+
+    "files": [
+      "amd-banner.js",
+      "alina.js",
+      "binders.js",
+      "easings.js",
+      "amd-footer.js"
+    ]
+  }
+}
